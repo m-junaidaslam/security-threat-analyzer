@@ -1,8 +1,30 @@
 # Threat Analyzer
 
-A serverless, event-driven security monitoring platform built on AWS.
+An AWS-based serverless security monitoring system that detects suspicious login activity, tracks security events in real time, and alerts on potential threats using Kinesis, Lambda, DynamoDB, and Terraform.
 
-The platform ingests security events in real time, detects suspicious activities, stores alerts for investigation, archives raw events for long-term retention, and notifies security teams when critical threats are detected.
+This project demonstrates a real-world, event-driven cloud architecture for security monitoring. It ingests security events, evaluates threat conditions, stores alerts for investigation, archives raw event data for future analysis, and sends notifications through CloudWatch and SNS.
+
+## Why this project matters
+
+This project highlights practical experience with:
+
+- AWS serverless architecture
+- Infrastructure as Code with Terraform
+- Event-driven application design
+- Security monitoring and alerting workflows
+- Cloud-native data processing and persistence
+
+## Tech Stack
+
+- Python 3.13
+- Terraform 1.15+
+- AWS Lambda
+- Amazon Kinesis
+- Amazon DynamoDB
+- Amazon S3
+- Amazon Kinesis Firehose
+- CloudWatch
+- SNS
 
 ---
 
